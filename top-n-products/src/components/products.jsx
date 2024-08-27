@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card, CardContent, Typography, Grid, CardMedia } from '@mui/material';
 
-// Example placeholder image URL
-const getPlaceholderImage = (index) => `https://source.unsplash.com/random?sig=${index}`;
+
 
 const products = ({ products }) => {
   return (

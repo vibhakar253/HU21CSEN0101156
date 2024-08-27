@@ -96,7 +96,6 @@ const AllProductsPage = () => {
       (product.availability === 'yes') // Simplified for demonstration
     );
 
-    // Update state with filtered products
     setProducts(filteredProducts);
     setError(null);
   };
